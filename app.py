@@ -52,7 +52,7 @@ if disp_check:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-scatter_check = st.checkbox('Mostrar gráfico de dispersión')
+scatter_check = st.checkbox('Mostrar dispersión')
 
 if scatter_check:
     st.write('Gráfico de dispersión: relación entre odómetro y precio')
