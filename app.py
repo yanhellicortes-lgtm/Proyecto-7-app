@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 
-datos = pd.read_csv('data/vehicles_us.csv')
+datos = pd.read_csv('Data/vehicles_us.csv')
 
 st.header('Análisis de anuncios de ventas de autos')
 
